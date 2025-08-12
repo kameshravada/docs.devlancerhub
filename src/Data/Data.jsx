@@ -7,19 +7,19 @@ import {
 
 const sideheads = [
   {
-    icon: <IconDeviceLaptop stroke={1.5} />,
+    icon: <IconDeviceLaptop stroke={1} />,
     title: "Projects",
   },
   {
-    icon: <IconCode stroke={1.5} />,
+    icon: <IconCode stroke={1} />,
     title: "Source Code",
   },
   {
-    icon: <IconFolders stroke={1.5} />,
+    icon: <IconFolders stroke={1} />,
     title: "Project Assets",
   },
   {
-    icon: <IconLibraryPhoto stroke={1.5} />,
+    icon: <IconLibraryPhoto stroke={1} />,
     title: "Stock Pictures",
   },
 ];
