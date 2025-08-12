@@ -4,7 +4,7 @@ import SideBar from './Components/SideBar'
 
 const App = () => {
   return (
-    <div>
+    <div className='h-screen'>
       <Header/>
       <SideBar/>
     </div>

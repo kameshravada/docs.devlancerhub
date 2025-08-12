@@ -4,12 +4,14 @@ import { sideheads } from "../Data/Data";
 const SideBar = () => {
   const[active,setActive]=useState(null);
   return (
-    <div className="h-screen bg-[#0d1224] w-[19%] py-10 flex flex-col gap-2">
+    <div className="h-[90vh] bg-[#0d1224] w-[20%] py-10 flex flex-col gap-2">
       {sideheads.map((item, index) => (
         <a
-          className={`flex gap-3 text-white items-center justify-start p-5 cursor-pointer ${
+          className={`flex gap-3 text-white items-center justify-start px-4 py-3 cursor-pointer border-l-4 border-transparent ${
             active === index
-              ? "bg-gradient-to-r from-[#144c52] to-[] border-l-4 border-[#26ffe3] "
+              ? //   ? "bg-gradient-to-r from-[#144c52] to-[] border-l-4 !border-[#26ffe3] rounded transition-all duration-10 ease-in-out"
+                //"bg-gradient-to-r from-[#002366] to-[] border-l-4 !border-[#4da6ff] rounded transition-all duration-10 ease-in-out"
+                "bg-gradient-to-r from-[#ffe503]/15 to-[] border-l-4 !border-[#ffcc33]/90 rounded transition-all duration-10 ease-in-out"
               : ""
           } `}
           key={index}
