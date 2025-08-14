@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { sideheads } from "../Data/Data";
 
 const SideBar = () => {
-  const[active,setActive]=useState(null);
+  const[active,setActive]=useState(0);
   return (
     <div className="h-[90vh] bg-[#0d1224] w-[20%] py-10 flex flex-col gap-2">
       {sideheads.map((item, index) => (
