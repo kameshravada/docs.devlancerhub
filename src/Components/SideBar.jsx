@@ -4,7 +4,7 @@ import { sideheads } from "../Data/Data";
 const SideBar = () => {
   const[active,setActive]=useState(0);
   return (
-    <div className="h-[90vh] bg-[#0d1224] w-[20%] py-10 flex flex-col gap-2">
+    <div className="h-[90%] bg-[#0d1224] sm:w-56 md:w-58 py-10 flex flex-col gap-2">
       {sideheads.map((item, index) => (
         <a
           className={`flex gap-3 text-white items-center justify-start px-4 py-3 cursor-pointer border-l-4 border-transparent ${
